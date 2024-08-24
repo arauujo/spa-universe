@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --nav-color: #C4C4CC;
+  --text-color: #E1E1E6;
+  --text-hover-color: #abac87;
+  --white-color: #FFFFFF;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  background-image: url(./assets/img/bg-home.png);
+  background-size: cover;
+  display: grid;  
+  align-items: center;
+}
+
+body.universe {
+  background-image: url(./assets/img/bg-universe.png);
+}
+
+.explore {
+  background-image: url(./assets/img/bg-explore.png);
+}
+
+.active {
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.items-center {
+  justify-items: center;
+}
+
+.p-102 {
+  padding-left: 10.2rem;
+}
+
+body, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 4rem 7.2rem;
+  gap: 3.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: var(--nav-color);
+}
+
+nav a:hover {
+  color: var(--text-hover-color);
+}
+
+.menu {
+  display: flex;
+  gap: 3.2rem;
+}
+
+#app {
+  display: grid;
+}
+
+body.universe, body.explore {
+  #app {
+    margin-top: -20rem;
+  }
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: var(--text-color);
+}
+
+button {
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--white-color);
+  border: 2px solid var(--white-color);
+  border-radius: 5px;
+  margin-top: 2.4rem;
+  padding: 1.2rem 3.2rem;
+}
+
+button:hover {
+  color: var(--text-hover-color);
+  border-color: var(--text-hover-color);
+}
+
+p {
+  margin-top: 1.6rem;
+  width: 64.8rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  line-height: 2.88rem;
+}

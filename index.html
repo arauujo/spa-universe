@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubra mais sobre o universo com o SPA Universe.">
+
+  <title>SPA Universe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="./assets/img/favicon-16x16.png">
+  <link rel="icon" sizes="32x32" href="./assets/img/favicon-32x32.png">        
+  <link rel="icon" sizes="192x192" href="./assets/img/favicon-192x192.png">
+  <link rel="icon" sizes="512x512" href="./assets/img/favicon-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script type="module" src="./src/index.js" defer></script>
+</head>
+<body>
+  <nav>
+    <img src="./assets/img/galaxy.svg" alt="Ícone de galáxia.">
+    <div class="menu">
+      <a href="/" class="home" onclick="route()">Home</a>
+      <a href="/universe" class="universe" onclick="route()">O Universo</a>
+      <a href="/explore" class="explore" onclick="route()">Exploração</a>
+    </div>
+  </nav>
+
+  <div id="app"></div>
+</body>
+</html>
