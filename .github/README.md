@@ -1,3 +1,5 @@
+
+![spa-universe](https://github.com/user-attachments/assets/66041c6f-c875-47e6-858c-3841f7bf939e)
 ## 🖥️ Projeto
 
 O SPA Universe é um desafio proposto durante o Stage 06 da trilha Explorer da Rocketseat para praticar os conhecimentos no conceito Single Page Application.
