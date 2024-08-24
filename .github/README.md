@@ -33,9 +33,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 Para acessar esse projeto, é necessário ter o NodeJS instalado, clonar o repositório e rodar localmente com o NodeJS.
 
 - Instale o NodeJS:
-```
 [NodeJS](https://nodejs.org/)
-```
 
 - Clone o projeto e acesse a pasta do mesmo:
 ```
